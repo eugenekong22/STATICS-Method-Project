@@ -14,11 +14,11 @@ st.set_page_config(page_title="STATICS Method — Canal Gate", page_icon="🌊",
 # ==========================================
 # 1. PROBLEM DEFINITION & DIAGRAM
 # ==========================================
-st.title("Structural Integrity of a Canal Turnout Gate")
+st.title("Structural Integrity of a Canal Gate")
 
 PROBLEM_TEXT = (
     "**The Scenario:**\n"
-    "You are tasked with verifying the support requirements for a new vertical 'overshot' slide gate at a Cal Poly Irrigation Training & Research Center (ITRC). "
+    "You are tasked with verifying the support requirements for a new vertical slide gate at a Cal Poly Irrigation Training & Research Center (ITRC). "
     "The gate is designed to hold back a full head of water from the main supply canal. "
     "To ensure the gate doesn't 'blow out' or warp, we must determine the exact horizontal forces being pushed into the support frame at the top and bottom.\n\n"
     "**The System Specs:**\n"
@@ -337,3 +337,4 @@ if st.session_state.step_idx >= 7:
             st.session_state.clear()
 
             st.rerun()
+
