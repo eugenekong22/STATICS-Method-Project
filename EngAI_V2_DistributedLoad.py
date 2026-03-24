@@ -22,7 +22,7 @@ PROBLEM_TEXT = (
     "The gate is designed to hold back a full head of water from the main supply canal. "
     "To ensure the gate doesn't 'blow out' or warp, we must determine the exact horizontal forces being pushed into the support frame at the top and bottom.\n\n"
     "**The System Specs:**\n"
-    "* **Gate Dimensions:** 3.0 m tall and 1.5 m wide.\n"
+    "* **Gate Dimensions:** 3.0 m tall.\n"
     "* **Water Condition:** The canal is at maximum capacity, with the water level flush with the top of the gate (Point A).\n"
     "* **Supports:**\n"
     "  * **Point A (Top):** A horizontal guide rail (modeled as a **Pin** for horizontal and vertical stability).\n"
